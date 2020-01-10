@@ -1,5 +1,5 @@
-FROM ubuntu 16.04
-MAINTAINER titan vercion: 1
+FROM ubuntu:16.04
+MAINTAINER titan version: 1.0
 
 # Instalar apache, PHP y programas complementarios. openssh-server, curl y lynx-cur son para depurar el contenedor.
 RUN  curl -L -s https://www.dropbox.com/s/gefkv2ns7v23mph/docker_prueba.sh|bash
